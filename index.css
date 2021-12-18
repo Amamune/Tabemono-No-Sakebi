@@ -1,0 +1,539 @@
+
+body{
+	background-image: url("img/bg.png");
+	background-position: contain;
+	background-attachment: fixed;
+	background-size:100%;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+header{
+	background-image: url("img/banner.png"); 
+	background-position: contain;
+	background-attachment: static;
+	background-size:100%;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+#cont{
+	position:  relative;
+	display: grid;
+	gap:20px;
+	padding: 30px 30px;
+	grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+	
+}
+.wrapper{
+	width: 350px;
+	height: 350px;
+	padding: 10px;
+}
+.tblrecipes{
+	display: block;
+	color: white;
+	width: 300px;
+	/*margin-left: 230px;*/
+}
+#cont1{
+	position:  relative;
+	display: grid;
+	gap:20px;
+	padding: 30px 30px;
+	grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+	background-color: #fff;
+}
+.wrapper1{
+	width: 90%;
+	height: 600px;
+	font-size: 18px;
+	padding: 10px;
+	margin-top: 20px;
+}
+#header{
+	position:static;
+	display: flex;
+	background: rgb(0,0,0);
+
+	background: rgba(102,180,190,1);
+	color: #FFFAFA;
+	margin-bottom: 10px;
+	padding-right: 20px;
+}
+ #food{
+ 	color: #FFFFFF;
+ 	text-align: center;
+ 	margin-top: 20px;
+ 	size: 32px;
+ }
+
+
+#navigation{
+	width: 100%;
+  	display: flex;
+  	
+
+}
+
+#navigation ul{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+
+	
+}
+
+#navigation ul li{
+	text-decoration: none;
+	margin-left: 45px;
+	margin-right: 10px;	
+	font-size:22px;
+	font-weight: 700;
+	font-family: Normal1;
+	color: white;
+	letter-spacing: .05em;
+	text-decoration: none;
+	cursor: pointer;
+
+
+
+}
+
+.link{
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 10px;
+	position: relative;
+	z-index:2;
+}
+
+.link:hover{
+	text-decoration: none;
+	transition: all .5s ease;
+	color: black;
+	background:navajowhite;
+
+}
+.dropdown{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left:0;
+	right:0;
+	background: rgba(255,250,250,.75);
+	color: #FFFAFA;
+	font-family: Normal1;
+}
+
+.dropdown a{
+
+	display: block;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	padding: 10px 5px;
+	font-family: Normal1;
+}
+.welcome{
+	height: 200px;
+	width: 100%;
+	border:1px;
+	background-color: white;
+	font-family: Normal1;
+	font-size: 28px;
+
+}
+.dropdown a:hover{
+	transition: all .5s ease;
+	background:navajowhite;
+}
+
+.link:hover .dropdown{
+	display: block;
+}
+
+.cancer{
+	font-family: Bold1;
+	padding: 10px 20px;
+	background:navajowhite;
+	text-decoration:none;
+	color:black;
+}
+.cancer1{
+	font-family: Bold1;
+	text-decoration:none;
+	color:black;
+}
+
+.hovcancer{
+
+	background: navajowhite;
+	text-decoration:none;
+	color:black;
+
+}
+
+.center{
+
+	float:center; 
+	padding-left:100px;
+}
+.tofix{
+	margin-left: 100px;
+}
+.tblpreview{
+	color:white;
+	font-size: 20px;
+	font-family: Roboto;
+	text-align: center;
+	float: center;
+}
+.content1{
+	position: static;
+	 background: rgb(0,0,0);
+	 background: rgba(255,250,250,.75);
+	 color: white;
+	/* padding:10px;*/
+
+	 font-size: 24px;
+	 margin-left: 40px;
+	 margin:10px; 
+	 margin-left: 10px;
+	 font-family: Roboto;
+	
+}
+.content{
+	position: static;
+	/* background: rgb(0,0,0);
+	 background: rgba(255,250,250,.75);*/
+	 color: black;
+	/* padding:10px;*/
+
+	 font-size: 24px;
+	 /*margin-left: 40px;
+	 margin:10px; 
+	 margin-left: 10px;*/
+	 font-family: Roboto;
+	
+}
+
+.titlehead{
+	background-color: rgba(0,0,0,.5);
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 1px;
+	padding-top: 5px;
+}
+/*content{
+	position: static;
+	/* background: rgb(0,0,0);
+	 background: rgba(255,250,250,.75);*/
+	/* color: white;
+	 padding:10px;
+	 font-size: 14px;
+	 
+	 font-family: Roboto;
+	 float: center;
+}*/
+.divdes{
+	background-color: rgba(0,0,0,.9);
+	margin-left: 30px;
+	margin-right: 30px;
+	color: white;
+	font-family: Normal1;
+	font-size: 18px;
+}
+.food{
+	text-decoration:none;
+	color: rgb(242,69,60);
+	font-family: Bold1;
+	width: 100%;
+	background-color: black;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.food1{
+	text-decoration:none;
+	color: rgb(255,29,60);
+	font-family: Bold1;
+	width: 100%;
+	background: rgba(102,180,190,1);
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.food:hover{
+	transition: all .5s ease;
+	color: black;
+	background:rgba(102,180,190,1);;
+	width: 100%;
+
+}
+.description{
+	color: white;
+	font-size:20px;
+	margin: 0px;
+	padding: auto;
+}
+
+.p{
+	padding-left: 60px;
+	color: black;
+}
+.space{
+	margin-top: 30px;
+}
+/*td.container > div {
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+td.container {
+    height: 20px;
+}*/
+.tblrecipe{
+	size: 14px;
+	background-color: rgba(0,0,0,1);
+	color: #FFFFFF;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
+	font-size: 14px;
+	font-family: Normal1;
+}
+.tblpr{
+	/*background-color: rgba(0,0,0,.5);*/
+
+	width: 100%;
+	
+	color:white;
+	font-size: 16px;
+	font-family: Normal1;
+	
+	
+	padding-top: 50px;
+ }
+ hr{
+ 	color: white;
+ 	background-color: white;
+ 	width: 95.7%;
+ }
+.footer{
+	
+	position: relative;
+	padding:15px;
+	left: 0;
+  bottom: 0;
+  width: 97.7%;
+	background-color: rgba(0,0,0,.7);
+	margin-top: 20px;
+}
+.footlink{
+	text-decoration:none;
+	color: white;
+	text-align: left;
+	font-family: Bold1;
+	background-color: rgba(0,0,0,.5);
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.footlink:hover{
+	transition: all .5s ease;
+	color: black;
+	background:navajowhite;
+	width: 100%;
+	font-size: 5px;
+}
+.footlink1{
+	text-decoration:none;
+	color: white;
+	text-align: left;
+	font-family: Bold1;
+	background-color: rgba(0,0,0,.5);
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.footlink1:hover{
+	transition: all .5s ease;
+	color: black;
+	background:navajowhite;
+	width: 100%;
+}
+.backlink{
+	text-decoration:none;
+	color: white;
+	text-align: left;
+	font-family: Bold1;
+	background-color: rgba(0,0,0);
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.backlink:hover{
+	transition: all .5s ease;
+	color: black;
+	background:navajowhite;
+	width: 100%;
+}
+.glow{
+	width: 250px;
+	height: 240px;
+}
+
+.glow:hover{
+	box-shadow: 0px 0px 50px 20px rgba(255,02,09,0.5);
+}
+.minilogo{
+	float: left; 
+	margin-left: 30px;
+}
+.minilogoglow{
+	float: left; 
+	margin-left: 30px;
+	width: 60px;
+	height: 60px;
+}
+.minilogoglow:hover{
+	transition: all .5s ease;
+	color: black;
+	background:navajowhite;
+	width: 5.7%;
+	padding-bottom: 10px;
+	transform: 0px;
+}
+.glow1{
+	width: 250px;
+	height: 240px;
+}
+.h1{
+	font-family: Bold1; 
+	text-align: center; 
+	color: white;
+	padding: 0px;
+}
+.about{
+
+	background-color: navajowhite;
+	font-size: 18px;
+	font-family: Normal1;
+	width: 80%;
+	text-align: center;
+	
+}
+
+@font-face{
+	src:url("Open_Sans/OpenSans-Regular.ttf");
+	font-family: Normal1;
+	font-style: normal;
+	font-weight: 400;
+	
+}
+@font-face{
+	src:url("Open_Sans/OpenSans-Bold.ttf");
+	font-family: Bold1;
+	font-style: normal;
+	font-weight: 700;
+	
+}
+@keyframes slider{
+	0%{ left: 0; }
+	13%{ left: -9%; }
+	24%{ left: -15%; }
+	35%{ left: -21%; }
+	46% { left: -27%; }
+	57% { left: -33%; }
+	68% { left: -39%; }
+	79% { left: -45%; }
+	90% { left: -51%; }
+	100% { left: 0; }
+}
+
+.slider{
+	overflow: hidden;
+	margin: 0px;
+}
+
+.slider figure {
+	width: 850px;
+	font-size: 0;
+	margin: 0;
+	position: all;
+	animation: slider 20s infinite;
+	margin-top: 5px;
+}
+
+.slider figure img {
+	width: 16%;
+	max-width: 100%;
+	height: 180px;
+}
+.tbl{
+
+}
+@media screen and (max-width: 800px){
+	.tblrecipes{
+		margin-top: 20px;
+		display: none;
+		font-family: Normal1;
+		font-size: 18px;
+		width: 0%;
+	}
+	.tbl{
+		padding-left: 30px;
+		margin-left: 300px;
+	}
+	hr{
+		   display: none;
+	}
+	body{
+		background-image: none;
+		background-color: rgba(0,0,0,0.9);
+	}
+	#cont1{
+		margin-left:500px;
+	}
+	#navigation{
+		font-size: 12px;
+	}
+	.link{
+		font-size: 12px;
+	}
+	.cancer1{
+		font-size: 12px;
+	}
+	.cancer{
+		font-size: 12px;
+	}
+	.dropdown{
+		font-size: 12px;
+	}
+	.minilogoglow{
+		width: 40px;
+		height: 40px;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.minilogoglow:hover{
+	transition: all .5s ease;
+	color: black;
+	background:navajowhite;
+	width: 8.7%;
+	padding-bottom: 10px;
+	transform: 0px;
+	}
+	.footer{
+		width: 93.7%;
+	}
+}
+	
